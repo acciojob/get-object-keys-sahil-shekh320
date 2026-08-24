@@ -1,6 +1,6 @@
 //your JS code here. If required.
 ler arr = []
-let Student =
+let student =
 	{
 		name:"john",
 	}
