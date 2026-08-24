@@ -1,4 +1,5 @@
 //your JS code here. If required.
+ler arr = []
 let Student =
 	{
 		name:"john",
@@ -6,7 +7,8 @@ let Student =
 
 function getKeys(obj)
 {
-	return Object.keys(obj)
+	arr.push(obj)
+	return arr
 }
 
 console.log(getKeys(Student))
