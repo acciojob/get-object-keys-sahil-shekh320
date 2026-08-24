@@ -1,14 +1,12 @@
 //your JS code here. If required.
-ler arr = []
+let arr = []
 let student =
 	{
 		name:"john",
 	}
 
-function getKeys(obj)
+function getKeys(student)
 {
 	arr.push(Object.keys(Student))
 	return arr
 }
-
-console.log(getKeys(Student))
