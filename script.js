@@ -7,7 +7,7 @@ let Student =
 
 function getKeys(obj)
 {
-	arr.push(obj)
+	arr.push(obj.name)
 	return arr
 }
 
