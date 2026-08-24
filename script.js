@@ -3,10 +3,10 @@ let arr = []
 let student =
 	{
 		name:"john",
-	}
+	};
 
-function getKeys(student)
+function getKeys(obj)
 {
-	arr.push(Object.keys(student))
-	return arr
+	return (Object.keys(obj));
+	
 }
